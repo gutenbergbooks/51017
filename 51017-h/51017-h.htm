@@ -1,0 +1,1331 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>The Project Gutenberg eBook of Anecdotes of the Learned Pig, by James Boswell and Hester Lynch Piozzi</title>
+<style type="text/css">
+
+/* === RESETS and BODY === */
+a, div, h1, h2,
+i, img, p, span {
+     margin:0;
+     padding:0;
+     }
+body {
+ margin:0.5em 5em 0.5em 0.5em;
+ line-height:1.5;
+ font-size:130%;
+}
+a, div, i, span {
+     font-family:inherit;
+     font-size:100%;
+     text-indent:0;
+     }
+div,h1,h2, p {
+     max-height:100%;
+     }
+
+/* === LINE-HEIGHTS === */
+.front {
+ line-height:1.1;
+}
+ul.footnotes {
+ line-height:1.25em;
+}
+.fnanchor,
+.transnote,
+.xxpn,
+h1,h2 {
+ line-height:1.0;
+}
+
+/* === FONT-SIZES === */
+h1,
+.fsize1 {
+ font-size:1.3em;
+}
+.fsize2 {
+ font-size:2em;
+}
+.fsize3 {
+ font-size:1.6em;
+}
+.chap-fst-wd {
+ font-size:1.5em;
+}
+.fsize5,h2 {
+ font-size:1.2em;
+}
+ul.footnotes,
+.fsize6 {
+ font-size:0.90em;
+}
+.chap-fst-wd span,
+.smcap span,
+.smmaj {
+ font-size:0.8em;
+}
+.fsize7 {
+ font-size:0.72em;
+}
+
+/* === PAGE-BREAKS === */
+h2.nobreak {
+ page-break-before:avoid;
+}
+div.chapter,
+div.front,
+h1,h2 {
+ page-break-before:always;
+}
+div.poembox {
+ page-break-inside:avoid;
+}
+
+/* === INDENTS, MARGINS, PADDING, ALIGNMENT, CLEAR === */
+h1 {
+ text-align:justify;
+}
+div,
+h2 {
+ text-align:center;
+}
+p {
+ text-indent:1em;
+ text-align:justify;
+}
+p.continue, p.first {
+ text-indent:0;
+}
+h1 {
+ padding-top:4em;
+ color:#e34234;
+}
+h2 {
+ padding-top:1em;
+ padding-bottom:1em;
+}
+p.hang2 {
+ text-indent:-0.5em;
+}
+.poembox {
+ margin:0.5em 0 0.5em 1em;
+}
+.chapter {
+ margin-left:4em;
+ padding-top:4em;
+}
+.front {
+ padding-top:4em;
+ margin:0 5%;
+}
+.transnote {
+ padding:3em 1em 1em 1em;
+ margin-top:1em;
+ margin-bottom:3em;
+ border:#787980 medium solid;
+ background-color:#f7f9ff;
+ font-size:0.9em;
+}
+.signature {
+ padding-right:1em;
+}
+.padtopa {
+ padding-top:2em;
+}
+.padtopb {
+ padding-top:1em;
+}
+.padtopc {
+ padding-top:0.5em;
+}
+.padbtmb {
+ padding-bottom:1em;
+}
+span.xxpn {
+ padding-right:0.2em;
+}
+.signature {
+ text-align:right;
+}
+.pverse {
+ text-indent:-2em;
+ padding-left:2em;
+ text-align:left;
+}
+
+
+/* === IMAGES === */
+img {
+ width:100%;
+ height:auto;
+}
+div.imctr01 {
+ margin:0.5em 0;
+}
+div.imctr10 {
+ margin:0.5em 36%;
+}
+
+/*  === INLINE_BLOCKS === dangerous in epub; make small === */
+.nowrap,
+.smcap,
+span.smmaj,
+.stanza {
+ display:inline-block;
+}
+
+/*  === LINKS === */
+a {
+ color:black;
+ text-decoration:none;
+}
+a.fnanchor {
+ vertical-align:baseline;
+ font-size:1.2em;
+}
+a.fnlabel {
+ padding-right:1em;
+ letter-spacing:-0.2em;
+}
+
+/*  === LISTS === */
+ul {
+ list-style-type:none;
+}
+li {
+ margin:0.5em 0;
+}
+ul.footnotes {
+ border:medium #668 solid;
+ padding:0.5em 1em 0.5em 1.5em;
+ background-color:#fffae9;
+ margin:2em 0;
+}
+
+/* === MISCELLANEOUS === */
+h1,h2 {
+ font-weight:normal;
+}
+i {
+ font-style:italic;
+ padding-right:0.15em;
+}
+.smcap,
+.smmaj {
+ font-style:normal;
+ text-transform:uppercase;
+}
+h2,
+.smcap,
+.smmaj {
+ letter-spacing:0.05em;
+}
+h1 {
+ letter-spacing:0.10em;
+}
+.chap-fst-wd,
+.letspa {
+ letter-spacing:0.15em;
+}
+span.xxpn {
+ font-weight:normal;
+ text-decoration:none;
+ position:absolute;
+ right:0;
+}
+.h2a,.h2b,.h2c {
+ display:block;
+}
+.h2a {
+ font-size:1.5em;
+ letter-spacing:0.5em;
+ padding-bottom:2em;
+}
+.h2b {
+ font-size:1em;
+ letter-spacing:0.1em;
+ padding-bottom:2em;
+}
+.h2c {
+ font-size:1.8em;
+ letter-spacing:0.2em;
+}
+
+@media handheld {
+ .xxpn {
+   position:static;
+   }
+ body {
+   margin:0.5em;
+   font-size:100%;
+   }
+ div,h1,h2, p {
+    max-height:none;
+   }
+ .chapter {
+    margin:0;
+   }
+}
+
+h1.pg { padding-top:0em;
+ color:#000000;
+font-size: 190%;
+text-align: center;
+font-weight: bold;
+letter-spacing: 0em }
+    h4      { text-align: center; }
+    hr.full { width: 100%;
+              margin-top: 3em;
+              margin-bottom: 0em;
+              margin-left: auto;
+              margin-right: auto;
+              height: 4px;
+              border-width: 4px 0 0 0; /* remove all borders except the top one */
+              border-style: solid;
+              border-color: #000000;
+              clear: both; }
+  </style>
+</head>
+<body>
+<h1 class="pg">The Project Gutenberg eBook, Anecdotes of the Learned Pig, by James
+Boswell and Hester Lynch Piozzi</h1>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>This eBook is for the use of anyone anywhere in the United States
+and most other parts of the world at no cost and with almost no
+restrictions whatsoever.  You may copy it, give it away or re-use it
+under the terms of the Project Gutenberg License included with this
+eBook or online at <a
+href="http://www.gutenberg.org">www.gutenberg.org</a>.  If you are not
+located in the United States, you'll have to check the laws of the
+country where you are located before using this ebook.</p>
+<p>Title: Anecdotes of the Learned Pig</p>
+<p>       With Notes, Critical and Explanatory, and Illustrations from Bozzy, Piozzi &amp;c. &amp;c.</p>
+<p>Author: James Boswell and Hester Lynch Piozzi</p>
+<p>Release Date: January 23, 2016  [eBook #51017]</p>
+<p>Language: English</p>
+<p>Character set encoding: UTF-8</p>
+<p>***START OF THE PROJECT GUTENBERG EBOOK ANECDOTES OF THE LEARNED PIG***</p>
+<p>&nbsp;</p>
+<h4>E-text prepared by MWS, RichardW,<br />
+    and the Online Distributed Proofreading Team<br />
+    (<a href="http://www.pgdp.net">http://www.pgdp.net</a>)<br />
+    from page images generously made available by<br />
+    Internet Archive/American Libraries<br />
+    (<a href="https://archive.org/details/americana">https://archive.org/details/americana</a>)</h4>
+<p>&nbsp;</p>
+<table border="0" style="background-color: #ccccff;margin: 0 auto;" cellpadding="10">
+  <tr>
+    <td valign="top">
+      Note:
+    </td>
+    <td>
+      Images of the original pages are available through
+      Internet Archive/American Libraries. See
+      <a href="https://archive.org/details/anecdotesoflearn00bosw">
+      https://archive.org/details/anecdotesoflearn00bosw</a>
+    </td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<hr class="full" />
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<div class="imctr01" id="coverpage">
+<img src="images/cover.jpg" width="600" height="800" alt="" />
+</div>
+
+<h1>Anec­dotes of the Learn­ed Pig, with Notes, cri­ti­cal and ex­plan­a­tory,
+and Il­lus­tra­tions, By James Bos­well, 1740–1795 and Hes­ter Lynch Pi­oz­zi,
+1741–1821.</h1>
+
+<div class="front">
+<div class="fsize3 letspa">ANECDOTES</div>
+<div class="fsize6 padtopb">OF THE</div>
+<div class="fsize2 padtopc letspa">LEARNED PIG.</div>
+<div class="fsize6 padtopb">WITH</div>
+
+<div class="fsize5 padtopb letspa">NOTES,</div>
+<div class="fsize6 padtopb">CRITICAL AND EXPLANATORY,</div>
+
+<div class="fsize7 padtopb">AND</div>
+<div class="fsize6 padtopb padbtmb">ILLUSTRATIONS FROM
+ BOZZY, PIOZZI, &amp;c. &amp;c.</div>
+
+<div class="imctr01">
+<img src="images/hr.3.jpg" width="600" height="3" alt="" />
+</div>
+
+<div class="fsize6"><i>Epicuri de grege porcus.</i></div>
+
+<div class="imctr01">
+<img src="images/hr.6.12.3.jpg" width="600" height="21" alt="" />
+</div>
+
+<div class="fsize6 padtopa letspa">LONDON:</div>
+<div class="fsize6">Printed for T. HOOKHAM, New Bond Street.</div>
+<div class="fsize6 letspa">M,DCC,LXXXVI.</div>
+</div>
+
+<div class="chapter">
+<h2 class="nobreak" id="p03" title="Advertisement.">
+ADVERTISEMENT.</h2>
+
+<p class="first"><span class="chap-fst-wd">T<span>HE</span></span>
+Editor is in­debt­ed to mere ac­cident for his ac­quain­tance with
+the fol­low­ing ſpright­ly per­for­mance; and, as it ſeemed to have been the
+Author’s in­ten­tion to have writ­ten notes, from ſev­er­al de­tached pa­pers
+hav­ing ref­er­ence to the text, the Edi­tor has ta­ken the lib­er­ty to in­tro­duce
+them as ſuch, and add ſome trif­ling ref­er­ences by way of proof or il­luſ­tra­tion,
+which he hopes may not be deemed im­per­ti­nent.</p>
+
+<p><i>May</i> 12, 1786.</p>
+</div><!--chapter-->
+
+<div class="chapter">
+<div>[&#160;5&#160;]</div>
+
+<div class="imctr01">
+<img src="images/hr.twice.600x3.jpg" width="600" height="12" alt="" />
+</div>
+
+<h2 class="nobreak" id="p05" title="ANECDOTES OF THE LEARNED PIG">
+<span class="h2a">ANECDOTES</span>
+<span class="h2b">OF THE</span>
+<span class="h2c">LEARNED PIG
+<a id="fnanc1" href="#fn1" class="fnanchor">*</a>.</span>
+</h2>
+
+<div class="imctr10">
+<img src="images/hr.swell.600x32.png" width="600" height="32" alt="" />
+</div>
+
+<p class="first"><span class="chap-fst-wd">T<span>HE</span></span>
+great and learned Pig, of which it is our hap to
+ſpeak, was produced in a ſty belonging to an old Tory,
+<span class="xxpn">[&#160;6&#160;]</span>
+bookſeller, in
+<a id="fnanc2" href="#fn2" class="fnanchor">†</a>
+<i>Moorfields</i>. At that time <i>Moorfields</i> was diſtinguiſhed
+by rails which
+<a id="fnanc3" href="#fn3" class="fnanchor">‡</a>
+fluttered with party writings and
+libels of every ſort; and it is remarkable that his mother,
+during her pregnancy, tore down from thoſe rails, and fairly
+devoured one whole volume of <i>Filmer</i> and all <i>Sacheverell</i>’s
+ſermons at a meal; after which ſhe was obſerved to grunt
+more and louder, and to lie longer in the ſun, and deeper in
+the mire, than it had before been her cuſtom to do. She
+was delivered of our Pig on the morning of the <i>tenth of
+June</i>. He was ſtrong and bony, but of an inelegant form,
+and betrayed a very uncommon roughneſs in his ſqueak; and
+it was ſoon after remarked by the neighbours, that his
+<span class="xxpn">[&#160;7&#160;]</span>
+trottings after his mother were made in
+<a id="fnanc4" href="#fn4" class="fnanchor">§</a>
+zig-zags, and not in
+ſtraight lines as is uſual with other pigs. After his mother,
+however, he reſolutely trotted, and one morning, as ill fortune
+would have it, into a garden which had belonged to the
+great <i>Milton</i>, and was now in the poſſeſſion of one of his
+daughters. Here he fed voraciouſly upon <i>white roſes</i>, whilſt
+his lady mother was buſily employed in rooting up all the <i>red
+ones</i>. He was in this place ſeized by the owner, and ſo ſeverely
+whipped, that he thought no other than that ſhe was
+whipping him to death in preparation for a luxurious meal.
+Of this whipping he retained through life the higheſt reſentment,
+and bore ever after the moſt inveterate hatred of the
+whole <i>Miltonic line</i>. On the fifth of November following he
+was taken up, without any warrant, by the rabble, for the
+uſes of a <i>Whig feaſt</i>, and was very near being <i>roaſted</i> at the
+ſame fire with the <i>Pope</i>, the <i>Devil</i>, and the <i>Pretender</i>;
+but this <span class="xxpn">[&#160;8&#160;]</span>
+being diſcovered to be ſomething <i>meaſly</i>, he was turned looſe
+to be cured, as they deridingly ſaid, by the
+<a id="fnanc5" href="#fn5" class="fnanchor">◊</a>
+<i>royal touch</i>. Of
+this event he retained the ſtrongeſt ſenſibility, and conſidered
+ever after his fellow ſufferers, the <i>Pope</i> and the <i>Pretender</i>,
+with great complacence, if not affection; but as to the other
+<i>party</i>, though expoſed to the ſame diſhonours, there was ſomething
+in his horns and his tail which he could never be brought
+<span class="xxpn">[&#160;9&#160;]</span>
+to endure. The touch already mentioned, though profanely
+ſneered at by the <i>Whig rabble</i>, was ſoon afterwards in good
+earneſt applied; but ſo great an obliquity of head had by
+this time taken place, that it could never be perfectly reſtored.
+Upon this memorable occaſion there was placed
+about his neck a ribband of <i>true blue</i>, to which hung a ſilver
+coin, diſplaying royal lineaments of the <i>Stuart line</i>, making
+ſo ſtrong an impreſſion on his young fancy, that for that line
+he ever after retained the moſt
+<a id="fnanc6" href="#fn6" class="fnanchor">#</a>
+paſſionate regard. Thus
+decorated, he conſidered himſelf, and was conſidered by
+others, as a kind of
+<a id="fnanc7" href="#fn7" class="fnanchor">♦</a>
+<i>Tantony</i>, or <i>St. Anthony</i>’s Pig, belonging
+to the Crown. Not long after this period he was
+<span class="xxpn">[&#160;10&#160;]</span>
+heard one morning as he lay in the ſun to grunt forth, portentouſly
+the following rhymes:</p>
+
+<div class="poembox fsize6"><div class="stanza">
+<div class="pverse">Gruntledum, gruntledum, gruntledum, ſqueak,</div>
+<div class="pverse">I hope very ſoon to be able to ſpeak;</div>
+<div class="pverse">Through my griſtly proboſcis, I find, that I can</div>
+<div class="pverse">Already cry <i>Ay</i> like a Parliament man:</div>
+<div class="pverse">Like a maid I ſqueak, like a lover can whine,</div>
+<div class="pverse">And ſnort like an Alderman laden with wine.</div>
+<div class="pverse">Gruntledum, gruntledum, gruntledum, ſqueak,</div>
+<div class="pverse">I hope very ſoon to be able to ſpeak.</div>
+</div></div>
+
+<ul class="footnotes"><li>
+<p class="hang2"><a id="fn1" href="#fnanc1" class="fnlabel">*</a>
+“He was not at all offended, when, comparing all our
+acquaintance to ſome animal or other, we pitched upon the elephant for
+his reſemblance, adding, that the proboſcis of that creature was like
+his mind moſt exactly, ſtrong to buffet even the tyger, and pliable to
+pick up even the pin.”—Piozzi, p. 205.—N.B. For elephant our author
+probably read <i>pig</i>.</p></li>
+
+<li>
+<p class="hang2"><a id="fn2" href="#fnanc2" class="fnlabel">†</a>
+We have ſought for information concerning this fact, that the gentleman
+deſignated in the text was born in <i>Moorfields</i>, or that his father was a bookſeller
+there, which, however, we confeſs to have heard, but when or where we can by
+no means remember.</p></li>
+
+<li>
+<p class="hang2"><a id="fn3" href="#fnanc3" class="fnlabel">‡</a></p>
+<p class="pverse">Cloath ſpice, line trunks, or flutt’ring in a row,</p>
+
+<p class="pverse">Befringe the rails of <i>Bedlam</i> or Soho.</p>
+<p class="signature fsize6"><span class="smcap">P<span>OPE’S</span></span>
+ <span class="smcap">I<span>M.</span></span>
+ <span class="smmaj">OF</span>
+ <span class="smcap">H<span>ORACE,</span></span>
+ Ep. <span class="smmaj">I.</span> B. 2.</p>
+</li>
+
+<li>
+
+<p class="hang2"><a id="fn4" href="#fnanc4" class="fnlabel">§</a>
+“When in company where he was not free, or when engaged earneſtly in
+converſation, he never gave way to ſuch habits, which proves that they were not
+involuntary.” I ſtill, however, think, that theſe geſtures were involuntary; for
+ſurely had not that been the caſe, he would have reſtrained them in the public
+ſtreets.—Boſwell’s Tour, p. 9.</p></li>
+
+<li>
+
+<p class="hang2"><a id="fn5" href="#fnanc5" class="fnlabel">◊</a>
+The pretence of a miraculous power in the cure of the evil was the moſt
+extraordinary ſtrain of that King-craft of which James the Firſt ſo loudly boaſted.
+No manly man, under the circumſtances of the caſe, would have ſet up this
+pretence, or have expected any effect from it but that of public deriſion and
+contempt; but weak and credulous men take, perhaps, the beſt meaſure of
+human weakneſs and credulity, and ſo deep did this fraud ſtrike its roots, that,
+authenticated as it was by the clergy, and annually certified by the ſurgeons and
+phyſicians of the royal houſehold, it ſurvived the civil war, was reſtored
+with Charles the Second, extended beyond the revolution, and was only extinguiſhed
+by the act of ſettlement, which, taking the principles of the Britiſh
+government out of the clouds, placed them on the firm baſis of the earth.
+The pretenſions of Alexander were of a bolder and more rational ſort, and held
+to be ſo important, that his ſucceſſors, who had no kindred intereſt in the horns
+of Ammon, yet mingled them in their crowns and tiaras, till at laſt the Roman
+Titans tumbled from their ſeats one after another theſe fictitious gods. The
+moſt deceitful glimmer of divine claim ſeems to have had more influence on
+the mind of the perſon who ſeems to have been deſignated in the text, than
+the moſt ſolid principles of political right.</p></li>
+
+<li>
+<p class="hang2"><a id="fn6" href="#fnanc6" class="fnlabel">#</a>
+“I mentioned Lord Hailes as a man of anecdote—He was not pleaſed
+with him for publiſhing only ſuch memorials as were unfavourable for the
+<i>Stuart</i> family.”—Boſwell’s Tour, p. 312.</p></li>
+
+<li>
+<p class="hang2"><a id="fn7" href="#fnanc7" class="fnlabel">♦</a>
+Tantony pigs were pigs who belonged formerly to the Convent of St. Anthony
+in the city. Collars were placed about their necks, inſcribed <i>St. Anthony</i>.
+They fed all over the town, and out of reſpect to the fathers of that
+convent, it was uſual for the paſſengers to give them biſcuits, and other things
+carried for that purpoſe in their pockets. The pigs of courſe followed the
+paſſengers in this expectation; and hence came the expreſſion of one perſon’s
+following another like a Tantony pig.</p></li>
+</ul>
+
+<p class="continue">This being publicly known, the neighbours now put on him
+a human coat, in which condition he appeared as if the <i>Hog
+in armour</i> had deſcended from his ſign-poſt to mingle in ſociety,
+and converſe with man. Nor did they ſtop here, but
+ventured alſo to recommend him for a penſion to the great
+<i>miniſterial hog</i>, though, for the preſent, however, without
+effect; for though it was evident enough that our learned
+Pig could ſay <i>Ay</i>, yet it did not follow that he would be
+<span class="xxpn">[&#160;11&#160;]</span>
+always diſpoſed to do ſo. He was therefore turned looſe into
+the ſoil of this great town to ſubſiſt as he could, where, <i>idling</i>
+and <i>rambling</i>, he picked up ſometimes flowers, and ſometimes
+thiſtles, a great number of Greek and Hebrew roots, with
+an immenſe quantity of verbage of every ſort
+<a id="fnanc8" href="#fn8" class="fnanchor">*</a>. It is for his
+honour that he routed in this rich compoſt for years without
+giving any offence, except that, through reſentment to the
+Miltonic line, he aſſociated rather too long with a very obſcene
+animal of the pig kind, called a
+<a id="fnanc9" href="#fn9" class="fnanchor">†</a>
+<i>Lauder</i>; and except, <span class="xxpn">[&#160;12&#160;]</span>
+that he was taken ſometimes with ſtrange freaks, and fancied
+<span class="xxpn">[&#160;13&#160;]</span>
+once that he ſaw ſomething in the
+<a id="fnanc10" href="#fn10" class="fnanchor">‡</a>
+ſhape of a ſound of a
+knocking; and excepting alſo his too ſonorous gruntulations,
+and that long concatenation of ſoapy bubbles which
+<span class="xxpn">[&#160;14&#160;]</span>
+uſually frothed from his mouth
+<a id="fnanc11" href="#fn11" class="fnanchor">§</a>. In the midſt of theſe
+reſearches he had one morning the good fortune to throw up
+this ſentiment in rhyme:</p>
+
+<div class="poembox"><div class="stanza">
+<div class="pverse">Say, what is a Tory? A Tory is he</div>
+<div class="pverse">Who thinks kicking ſhould paſs through every degree;</div>
+<div class="pverse">And that all political motion ſhould go</div>
+<div class="pverse">From the toe to the bum, from the bum to the toe.</div>
+<div class="pverse">Then what is a
+ <a id="fnanc12" href="#fn12" class="fnanchor">◊</a> Whig? A dog full of knavery,</div>
+<div class="pverse">A raſcal, a ſcoundrel impatient of ſlavery,
+    <span class="xxpn">[&#160;15&#160;]</span></div>
+<div class="pverse">A malignant, a thief;—then tell me if Whig</div>
+<div class="pverse">Be any more better than gruntledum pig?</div>
+</div></div>
+
+<ul class="footnotes">
+<li>
+<p class="hang2"><a id="fn8" href="#fnanc8" class="fnlabel">*</a>
+The perſon here deſigned is allowed by the courteſy of
+the times to poſſeſs a nervous and elegant ſtile; but ſo unhappy is
+the writer of this note, that he can by no means concur in the general
+praiſe. He has a notion of Saxon ſimplicity, from which all departure,
+not enforced by neceſſity, and regulated by taſte, aſſimilating, as
+much as may be, foreign words to the genius of the Saxon tongue, is to
+him intolerable. But the writer here ſpoken of was wholly deficient
+in taſte, and appears to refer his Engliſh to ſome foreign ſtandard
+chanting forth polyſyllables, and tiring the ear with dull returns of
+the ſame cadences, for ever advancing like a poſt horſe, two up and two
+down, and incapable of changing his pace, without throwing both himſelf
+and his rider in the dirt. But hack writers, like hack horſes, find it
+for their eaſe to practiſe an uniform rate.</p></li>
+
+<li>
+
+<p class="hang2"><a id="fn9" href="#fnanc9" class="fnlabel">†</a>
+<i>There is</i>, ſays a remarker on the life of Milton, <i>a high degree of prepollent
+probability that the letter in the Gentleman’s Magazine for the month of Auguſt 1747,
+page 363 and 364, ſigned William Lauder, came from the amicable hand of the
+writer of that life</i>. I do not, however, believe that the writer of Milton’s life
+was in the ſecret of Lauder’s forgeries, the fact itſelf being of ſo extraordinary
+a nature, that it is not probable that any two perſons, ſeparately capable of committing
+it, ſhould ſo fortuitouſly meet together; yet ſuch was his malevolence towards
+Milton, that we muſt admit it to have greatly clouded his underſtanding.
+He undoubtedly wrote the preface and the poſtſcript to Lauder’s publication: in
+alluſion to which, Doctor Douglas ſays, <i>that ’tis hoped, nay ’tis expected, that the
+the elegant and nervous writer, whoſe judicious ſentiments and inimitable ſtyle point out
+author of Lauder’s preface and poſtſcript, will no longer allow one to plume himſelf
+with his feathers, who appears ſo little to have deſerved his aſſiſtance</i>. Lauder confeſſes
+his guilt in a letter to Doctor Douglas, and takes all the obloquy on himſelf;
+but in a ſubſequent letter he declares, that the penitential one was written for
+him by that very gentleman, who has ſince written the life of Milton, and makes
+ſome complaints of a breach of friendſhip, <i>in which he had placed the moſt implicit
+and unlimited confidence</i>; but as he never charged, that I know of, the writer of
+Milton’s life with any participation in the forgery, we impute to him nothing
+but a ſtrange malignity which darkened his underſtanding. It muſt be owned,
+however, that he cut off the wreck of Lauder with great management, as well
+as competent ſucceſs. I remember that he boaſts in his life of Milton of his
+having written a prologue to the Comus of Milton, for the benefit of one of
+his grand daughters. This, I ſuppoſe, he would paſs for his benevolence; but
+he muſt excuſe me; I am not ſo much the dupe of charity as to believe, that
+he who ſo brutally calumniates Milton, his father, mother, uncles, wives, and
+children, <i>and all unfortunate ſouls that trace him in his line</i>, would be moved by
+any charitable diſpoſition towards any deſcendant of Milton’s, as being ſuch.
+The fact, I believe, is, that, finding Milton reduced by the labours of his friend
+Lauder to a level with his wiſhes, he practiſed, in concurrence with Mr. Lauder,
+one further act of malice, and endeavoured to fix an obligation on Milton in the
+perſon of his granddaughter, conferred by his moſt inveterate foes as the effect
+of ſatiated vengeance, converted into mingled pity and contempt. If there is
+any harſhneſs in this note, let it be remembered, that it ſpeaks of a man who,
+in the inſtance mentioned, let looſe the moſt outrageous malignity againſt one,
+who, whatever political errors he might have imbibed in common with a great
+majority of the nation, was, however, as a private man, of ſo exemplary a virtue,
+as to do the higheſt honour to literary purſuit, and whoſe genius, as a poet, conferred
+celebrity on the nation itſelf, and in whoſe protection therefore we ought
+to have taken a greater ſhare.</p></li>
+
+<li>
+
+<p class="hang2"><a id="fn10" href="#fnanc10" class="fnlabel">‡</a>
+The hiſtory of this knocking is curious; it forms ſuch a drama of comedy,
+tragedy, and farce, from its firſt commencement in Cock Lane, paſſing through
+the ſolemn vaults of Clerkenwell, and then to Weſtminſter Hall, as, I believe,
+never was exhibited in any other country; a drama wherein childiſhneſs and
+age, gravity, dignities, folly, fraud, ſuperſtition, and credulity, were all largely
+and confuſedly thrown in to thicken the plot. That the perſon here deſignated
+ſhould carry out of this ſcene any reſpectability of character, is a proof that
+either he muſt have poſſeſſed great intrinſic worth, who could bear ſuch large
+deductions, or that public opinion has ceaſed to be the teſt of merit, if any
+baſe metal can in this manner paſs current for gold.</p></li>
+
+<li>
+<p class="hang2"><a id="fn11" href="#fnanc11" class="fnlabel">§</a>
+Our biographer ſhould have told us alſo, that once he joined the train of
+fancy, and paſſing the limits of fact, entered by the Shakeſpearean gate into
+fairy land. But in an evil hour, “No favouring Sybil marked the devious
+way.” Never was man or pig ſo aſtounded! and no wonder. He had ſtumbled
+unaccountably on the creations of ſenſibility, and found no correſponding
+emotions within; yet, unconſcious of defect, he pretended a knowledge of
+the country, and even offered himſelf as an unerring guide; but not long; for,
+tired with the maze, he gave way, at length, to new adventurers, and fled as
+another Gulliver out of Lilliput, where he had only encumbered the
+land.</p></li>
+
+<li>
+<p class="hang2"><a id="fn12" href="#fnanc12" class="fnlabel">◊</a>
+“No man, however, was more jealouſly attached to his
+party; he not only loved a man the better, if he hated a <i>Whig</i>. Dear
+Bathurſt, ſaid he to me one day, was a man to my very heart’s content;
+he hated a fool, and he hated a rogue, and he hated a <i>Whig</i>; he was a
+very good hater.”—Piozzi’s Memoirs, p. 83.</p>
+
+<p>“<i>Pulteney</i> was as paltry a fellow as could be. He was a <i>Whig</i>, who
+pretended to be honeſt; and you know it is ridiculous for a <i>Whig</i> to
+pretend to be honeſt.” Boſwell’s Journal, p. 424.</p>
+
+<p>Talking of Granger—“The dog is a <i>Whig</i>: I do not like much to
+ſee a Whig in any dreſs; but I hate to ſee a <i>Whig</i> in a parſon’s
+gown.”—<i>Ibid.</i> p. 312.</p></li>
+</ul>
+
+<p class="continue">There needed no more;
+a penſion was immediately hung
+about his neck, and the letters L.&nbsp;L.&nbsp;D. ſoon afterwards impreſſed
+on his rump
+<a id="fnanc13" href="#fn13" class="fnanchor">*</a>.
+And now who but our Pig? lying in the
+ſun, cheek by jowl, by the great miniſterial Hog, routing in the
+political ſoil, and throwing up daily the moſt delicious
+<span class="xxpn">[&#160;16&#160;]</span> pig-nuts
+with his ſnout; nor did theſe diſcoveries reſt wholly in
+himſelf; for the great Hog would ſometimes let fall, from behind,
+certain rich, but often crude and ill-digeſted, materials,
+which were taken up in the Weſtphalian mode by our Pig, and
+delivered again better concocted to the many-headed beaſt:
+and hence we were taught, that Taxation was no Tyranny, and
+that a good American war was a very commodious and ſalutary
+thing. Great applauſe enſued, but not unattended with
+envy, there being at the time many ſnarlers who have ſaid,
+and now ſay, that it were better if our Pig had been, before
+this period, well ſouſed in the pickling tub, and that even the
+great miniſterial Hog himſelf had been hung up for bacon.
+I decide nothing on theſe brawls; yet, having reſpect to a
+certain ſuppoſed dignity in our Pig, it may, perhaps, excite
+ſome wonder, that he, whoſe politics were of no older a date
+than his penſion, and who had hitherto never routed out of the
+moral track, ſhould all at once lend himſelf out in this manner,
+and make his conſcience reſponſible for meaſures, of the
+principles or effects of which he muſt have been ſo incompetent
+a judge. But I anſwer in few words, that, like all other
+<span class="xxpn">[&#160;17&#160;]</span>
+politicians, he had his propenſities; that it was, perhaps, the
+nature of the animal, and that mingling his humours and his
+reaſon together, there might have been a competent ſincerity
+in the caſe. But what ſhall we ſay to the indecency of his
+turning up the graves of <i>Pope</i> and
+<a id="fnanc14" href="#fn14" class="fnanchor">†</a>
+<i>Swift</i>, (for I ſpeak not
+now of Milton) and goring them, Tories as they were, with
+ſo malicious a tooth? I anſwer, firſt, that they were not
+Tories. <i>Pope</i> placed his glory in moderation; and <i>Swift</i>
+was the renegade of one party, without being the convert of
+the other. But it was not <i>Whig</i> or <i>Tory</i>, I believe, which
+now moved our Pig: there are other inſtinctive enmities in
+the world. Theſe men of real genius were ſatiriſts by profeſſion,
+and the natural enemies of Pigſ—“<i>The fewer ſtill I
+name</i>,” ſays Pope, “<i>I hurt the more</i>.”—“<i>Bond is but one, but
+Balaam is a ſcore</i>;” and again, “An hundred ſmart in
+<i>Timon and in Balaam</i>.” And I believe that our Pig ſmarted
+in <i>Bentley</i>, <i>Tibbald</i>, and poſſibly in many others; the ſtorm
+<span class="xxpn" id="p18">[&#160;18&#160;]</span>
+had but juſt patted before him, and he heard the arrowy
+ſhower ſtill rattle in his ear, and was conſcious, perhaps, that
+had he come forth a day ſooner, he would have been placed
+in a diſtinguiſhed, but, to him, a very unpleaſant, niche in
+the Dunciad of <i>Pope</i>,</p>
+
+<div class="poembox fsize6"><div class="stanza">
+<div class="pverse">“Sacred to ridicule his whole life long,</div>
+<div class="pverse">“And the ſad burden of ſome merry ſong.”</div>
+</div></div>
+
+<ul class="footnotes">
+<li>
+<p class="hang2"><a id="fn13" href="#fnanc13" class="fnlabel">*</a>
+Our author daſhes away from thing to thing with very
+little method or order. He might, however, have touched on the
+occupation of a ſchoolmaſter, ſo honourable for a <i>pig</i>; in proof of
+which, we could have furniſhed him with the following document:</p>
+
+<p>“At Edial, near Litchfield, in Staffordſhire, young gentlemen are
+boarded and taught the Latin and Greek languages by Samuel Johnſon.”</p>
+
+<p class="signature fsize6"><span class="smcap">A<span>DVERTISEMENT</span></span>
+ <span class="smmaj">IN</span>
+ <span class="smmaj">THE</span>
+ <span class="smcap">G<span>ENT.</span></span>
+ <span class="smcap">M<span>AG.</span></span> 1736, p. 428.</p>
+</li>
+
+<li>
+<p class="hang2"><a id="fn14" href="#fnanc14" class="fnlabel">†</a>
+“He ſeemed to me to have an unaccountable prejudice
+againſt Swift; for I once took the liberty to aſk him, if Swift had
+perſonally offended him; and he told me, he had not.”—Boſwell’s Tour,
+p. 38.</p></li>
+</ul>
+
+<p>Where he inſults therefore the mighty dead, his rage is at
+leaſt natural; and when, to wound <i>Pope</i>, he ſuborns the
+tongue of a
+<a id="fnanc15" href="#fn15" class="fnanchor">*</a>
+kitchen wench, he preſerves, however, a nice
+proportion between his end and his means, doing, with very
+ſingular propriety, the baſeſt thing in, what muſt be allowed
+to be, the loweſt way. But we abſtain, we affect not gravity,
+we even forget his almoſt felonious attack upon Milton,
+and proceed. We have already noted the facility with which
+<span class="xxpn">[&#160;19&#160;]</span>
+our learned Pig could ſay <i>Ay</i>. It was a great accompliſhment;
+but he had alſo his defects.
+<a id="fnanc16" href="#fn16" class="fnanchor">†</a>
+No art, no inſtruction
+could ever bring him to make a tolerable bow, or indeed to
+practice any civil grimace whatever; and his higheſt approach,
+in this way, towards humanity, never went farther
+than to entitle him, from the moſt exquiſite judge, to the
+character of a very <i>reſpectable Hottentot</i>: and hence he became
+at laſt to be conſidered as a very great
+<a id="fnanc17" href="#fn17" class="fnanchor">‡</a>
+<i>Bore</i>; under
+<span class="xxpn">[&#160;20&#160;]</span>
+which diſgrace he retired to a brewery in the Borough.—Happy
+retirement! for here he was fed with the freſheſt grains
+by the fair hand of a lady, who condeſcended to become the
+prieſteſs of our Pig; a lady who had acquired the Greek language
+without loſing her own, and whoſe manners and latinity
+were both equally pure. How great therefore muſt have
+been his grief, when he afterwards ſaw his fair provider melt
+away into the arms of a ſoft, but doubtleſs ſinewy Signor,
+and bathe herſelf, as it is yet her fortune to do, in the voluptuous
+warmths of Italy. But her’s, however be the praiſe,
+that, compoſed of gentle paſſions, ſhe conſcientiouſly ſacrificed,
+at thirty-eight, fortune, freedom, and England, only to
+legalize her delights. Never in any future period may ſhe
+be repentant of her choice, but always find in the joys of
+<span class="xxpn">[&#160;21&#160;]</span>
+harmony a compenſation for the decays of love. From the
+fair hand of this lady our Pig was not only fed with the fineſt
+grains, but with the choiceſt green peas alſo, the earlieſt of
+the year—delicious food, as he himſelf confeſſes—for a
+<a id="fnanc18" href="#fn18" class="fnanchor">§</a>
+<i>Pig</i>.
+By her too was prepared for him the moſt inviting draff,
+which he ſwilled up at all hours with huge avidity and delight.
+But the lady had her humours; ſhe grew tired of one
+thing, and fond of another; ſhe ſought, upon preſſing inducements,
+the great rendezvous of Bath; and ſo the joys of
+the brewery had an end. Many were of opinion, (for who
+can pleaſe all,) that a certain diſtillery in the neighbourhood
+would have been a more apt and proper retreat for our Pig;—but
+there were difficulties; I enter not into domeſtic affairs;
+but whether there was any whiggiſm, or rivalſhip, or
+jealouſy, or what elſe in the caſe, I know not; but certain it
+<span class="xxpn">[&#160;22&#160;]</span>
+is, that Sir Joſeph and he could never, as they ought, well pig
+together. During the happy period above mentioned, it came
+into the fancy of our Pig to journey into Scotland in the character
+of a travelling bear, with a ragged ſtaff in his paws,
+and a
+<a id="fnanc19" href="#fn19" class="fnanchor">◊</a>
+monkey on his back. When he firſt obtained a penſion,
+he had been very affectionately conſidered by the people
+of that country, and in a manner naturalized, and become one
+of them; but he diſcovered ſoon afterwards, and more particularly
+on this occaſion, ſo much of the badger in his diſpoſition,
+that they found great reaſon to complain of the ſtrength
+and harſhneſs of his jaw. On his return he reſorted again to
+his beloved brewery, as yet profuſe of grains and draff,
+where he grunted forth, as was his cuſtom, many ſtrange and
+ſingular things, faithfully now on record, pretending alſo to
+cure certain mental diſeaſes by the medicinal qualities of his
+tongue; but its extreme roughneſs the ſenſibility of his patients
+could not bear. Enough has been ſaid; the reſt ſhall
+<span class="xxpn">[&#160;23&#160;]</span>
+be left to Bozzy. Yet we will add, that with all his peculiarities,
+he had virtues and merits enough to make us heartily
+wiſh he were ſtill in being:—But, alas, it is paſt, and he is
+now cutting up into junks, to be ſold <i>pro bono publico</i> at nine
+different ſhops in retail.</p>
+
+<ul class="footnotes">
+<li>
+<p class="hang2"><a id="fn15" href="#fnanc15" class="fnlabel">*</a>
+Moſt of what can be told concerning his petty
+peculiarities was communicated by a female domeſtic of the Earl of
+Oxford, who knew him, perhaps, after the middle of life.—Johnſon’s
+Lives of the Poets, 8vo. vol. 4, p. 141.</p></li>
+
+<li>
+
+<p class="hang2"><a id="fn16" href="#fnanc16" class="fnlabel">†</a>
+And yet certain it is that no pains was ſpared for this purpoſe; for “my
+mother (ſaid he) was always telling me that I did not behave myſelf; that I
+ſhould endeavour to learn behaviour, and ſuch cant.” Indeed his defect in this
+particular could not be overlooked by his moſt partial admirer; for “I ſuppoſe
+none (ſays ſhe) who ſaw his odd manner of geſticulation, much blamed or wondered
+at the good lady’s ſolicitude concerning her ſon’s behaviour.”—Piozzi’s
+Memoirs of Johnſon, p. 24 and 25.</p></li>
+
+<li>
+
+<p class="hang2"><a id="fn17" href="#fnanc17" class="fnlabel">‡</a>
+Cant words are uſually begot in a cellar by <i>fun</i> upon <i>folly</i>: but the word
+<i>bore</i> and <i>boar</i> has another origin; it was begot on a ſofa by <i>Madamoiſelle Ennui</i>
+upon herſelf, and brought forth into the world in the midſt of the ton. The
+roar and fury of the river Severn the people of the country call the <i>boar</i>. A
+female ſaint was reported miraculouſly to have ſhed tears: the fact was denied
+by a Madrid carpenter who had made the ſaint, “becauſe (ſays he) ſhe is not
+only compoſed of heart of oak, but if ſhe had been at all diſpoſed to weep, ſhe
+muſt have wept when I <i>bored</i> an aperture with my largeſt augre in her rump.”
+And thus teazing and vexation of every kind may be called a <i>bore</i>. A dun is a
+<i>bore</i>, and a ſermon is a <i>bore</i>, and ſo forth; but the greateſt of all poſſible <i>bores</i>,
+in whatever ſpelling, is a huſband, a <i>bore</i> at night, a <i>bore</i> in the morning, and,
+in ſhort, one general univerſal <i>bore</i>. Our author has uſed this faſhionable word
+with the moſt perfect propriety, in a ſenſe ſatisfying the very letter, as well as
+ſpirit of the word.</p></li>
+
+<li>
+<p class="hang2"><a id="fn18" href="#fnanc18" class="fnlabel">§</a>
+When we went into Wales together, and ſpent ſome time at Sir Robert
+Cotton’s at Llewenney, one day at dinner I meant to pleaſe Mr. Johnſon particularly
+with a diſh of very young peas.—“Are not they charming?” ſaid I to him,
+while he was eating them.—“Perhaps (ſaid he) they would be ſo—to a Pig.”—Piozzi,
+p. 63.</p></li>
+
+<li>
+<p class="hang2"><a id="fn19" href="#fnanc19" class="fnlabel">◊</a>
+This paſſage ſeems inexplicable. We have had reſort to Bozz, but in
+vain: the ſtaff, indeed, he readily acknowledged; but as to the other aſſociate,
+or who, or what was meant, neither he nor we were able to diſcover.</p></li>
+</ul>
+
+<p>&nbsp;</p>
+</div><!--chapter-->
+
+<div class="chapter transnote">
+
+<h2 class="nobreak" title="Transcriber's Note">TRANSCRIBER’S NOTE</h2>
+
+
+
+<p>Or­ig­i­nal page num­bers are shown like
+<span class="nowrap">this: [&#160;24&#160;].</span></p>
+
+<p>Foot­notes have been re­seq­uenced and moved from with­in par­a­graphs
+to natural breaks in para­graphs. We would ord­i­narily
+have moved the foot­notes to the end of the book, but we did not wish to
+entirely deprive you of the ambience that readers of the
+orig­inal print­ed book enjoyed.</p>
+
+<p>Original printed spelling and gram­mar are re­tained, with one
+ex­cep­tion:</p>
+
+<p>Page <a href="#p03" title="to page 3">3.</a> “ref­ee­nces” changed
+to “ref­er­ences”.</p>
+
+</div><!--chapter-->
+
+<p>&nbsp;</p>
+<hr class="full" />
+<p>***END OF THE PROJECT GUTENBERG EBOOK ANECDOTES OF THE LEARNED PIG***</p>
+<p>******* This file should be named 51017-h.htm or 51017-h.zip *******</p>
+<p>This and all associated files of various formats will be found in:<br />
+<a href="http://www.gutenberg.org/dirs/5/1/0/1/51017">http://www.gutenberg.org/5/1/0/1/51017</a></p>
+<p>
+Updated editions will replace the previous one--the old editions will
+be renamed.</p>
+
+<p>Creating the works from print editions not protected by U.S. copyright
+law means that no one owns a United States copyright in these works,
+so the Foundation (and you!) can copy and distribute it in the United
+States without permission and without paying copyright
+royalties. Special rules, set forth in the General Terms of Use part
+of this license, apply to copying and distributing Project
+Gutenberg-tm electronic works to protect the PROJECT GUTENBERG-tm
+concept and trademark. Project Gutenberg is a registered trademark,
+and may not be used if you charge for the eBooks, unless you receive
+specific permission. If you do not charge anything for copies of this
+eBook, complying with the rules is very easy. You may use this eBook
+for nearly any purpose such as creation of derivative works, reports,
+performances and research. They may be modified and printed and given
+away--you may do practically ANYTHING in the United States with eBooks
+not protected by U.S. copyright law. Redistribution is subject to the
+trademark license, especially commercial redistribution.
+</p>
+
+<h2>START: FULL LICENSE<br />
+<br />
+THE FULL PROJECT GUTENBERG LICENSE<br />
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK</h2>
+
+<p>To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full
+Project Gutenberg-tm License available with this file or online at
+www.gutenberg.org/license.</p>
+
+<h3>Section 1. General Terms of Use and Redistributing Project
+Gutenberg-tm electronic works</h3>
+
+<p>1.A. By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement. If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or
+destroy all copies of Project Gutenberg-tm electronic works in your
+possession. If you paid a fee for obtaining a copy of or access to a
+Project Gutenberg-tm electronic work and you do not agree to be bound
+by the terms of this agreement, you may obtain a refund from the
+person or entity to whom you paid the fee as set forth in paragraph
+1.E.8.</p>
+
+<p>1.B. "Project Gutenberg" is a registered trademark. It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement. There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement. See
+paragraph 1.C below. There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this
+agreement and help preserve free future access to Project Gutenberg-tm
+electronic works. See paragraph 1.E below.</p>
+
+<p>1.C. The Project Gutenberg Literary Archive Foundation ("the
+Foundation" or PGLAF), owns a compilation copyright in the collection
+of Project Gutenberg-tm electronic works. Nearly all the individual
+works in the collection are in the public domain in the United
+States. If an individual work is unprotected by copyright law in the
+United States and you are located in the United States, we do not
+claim a right to prevent you from copying, distributing, performing,
+displaying or creating derivative works based on the work as long as
+all references to Project Gutenberg are removed. Of course, we hope
+that you will support the Project Gutenberg-tm mission of promoting
+free access to electronic works by freely sharing Project Gutenberg-tm
+works in compliance with the terms of this agreement for keeping the
+Project Gutenberg-tm name associated with the work. You can easily
+comply with the terms of this agreement by keeping this work in the
+same format with its attached full Project Gutenberg-tm License when
+you share it without charge with others.</p>
+
+<p>1.D. The copyright laws of the place where you are located also govern
+what you can do with this work. Copyright laws in most countries are
+in a constant state of change. If you are outside the United States,
+check the laws of your country in addition to the terms of this
+agreement before downloading, copying, displaying, performing,
+distributing or creating derivative works based on this work or any
+other Project Gutenberg-tm work. The Foundation makes no
+representations concerning the copyright status of any work in any
+country outside the United States.</p>
+
+<p>1.E. Unless you have removed all references to Project Gutenberg:</p>
+
+<p>1.E.1. The following sentence, with active links to, or other
+immediate access to, the full Project Gutenberg-tm License must appear
+prominently whenever any copy of a Project Gutenberg-tm work (any work
+on which the phrase "Project Gutenberg" appears, or with which the
+phrase "Project Gutenberg" is associated) is accessed, displayed,
+performed, viewed, copied or distributed:</p>
+
+<blockquote><p>This eBook is for the use of anyone anywhere in the United
+  States and most other parts of the world at no cost and with almost
+  no restrictions whatsoever. You may copy it, give it away or re-use
+  it under the terms of the Project Gutenberg License included with
+  this eBook or online
+  at <a href="http://www.gutenberg.org">www.gutenberg.org</a>. If you
+  are not located in the United States, you'll have to check the laws
+  of the country where you are located before using this
+  ebook.</p></blockquote>
+
+<p>1.E.2. If an individual Project Gutenberg-tm electronic work is
+derived from texts not protected by U.S. copyright law (does not
+contain a notice indicating that it is posted with permission of the
+copyright holder), the work can be copied and distributed to anyone in
+the United States without paying any fees or charges. If you are
+redistributing or providing access to a work with the phrase "Project
+Gutenberg" associated with or appearing on the work, you must comply
+either with the requirements of paragraphs 1.E.1 through 1.E.7 or
+obtain permission for the use of the work and the Project Gutenberg-tm
+trademark as set forth in paragraphs 1.E.8 or 1.E.9.</p>
+
+<p>1.E.3. If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any
+additional terms imposed by the copyright holder. Additional terms
+will be linked to the Project Gutenberg-tm License for all works
+posted with the permission of the copyright holder found at the
+beginning of this work.</p>
+
+<p>1.E.4. Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.</p>
+
+<p>1.E.5. Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.</p>
+
+<p>1.E.6. You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including
+any word processing or hypertext form. However, if you provide access
+to or distribute copies of a Project Gutenberg-tm work in a format
+other than "Plain Vanilla ASCII" or other format used in the official
+version posted on the official Project Gutenberg-tm web site
+(www.gutenberg.org), you must, at no additional cost, fee or expense
+to the user, provide a copy, a means of exporting a copy, or a means
+of obtaining a copy upon request, of the work in its original "Plain
+Vanilla ASCII" or other form. Any alternate format must include the
+full Project Gutenberg-tm License as specified in paragraph 1.E.1.</p>
+
+<p>1.E.7. Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.</p>
+
+<p>1.E.8. You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works
+provided that</p>
+
+<ul>
+<li>You pay a royalty fee of 20% of the gross profits you derive from
+  the use of Project Gutenberg-tm works calculated using the method
+  you already use to calculate your applicable taxes. The fee is owed
+  to the owner of the Project Gutenberg-tm trademark, but he has
+  agreed to donate royalties under this paragraph to the Project
+  Gutenberg Literary Archive Foundation. Royalty payments must be paid
+  within 60 days following each date on which you prepare (or are
+  legally required to prepare) your periodic tax returns. Royalty
+  payments should be clearly marked as such and sent to the Project
+  Gutenberg Literary Archive Foundation at the address specified in
+  Section 4, "Information about donations to the Project Gutenberg
+  Literary Archive Foundation."</li>
+
+<li>You provide a full refund of any money paid by a user who notifies
+  you in writing (or by e-mail) within 30 days of receipt that s/he
+  does not agree to the terms of the full Project Gutenberg-tm
+  License. You must require such a user to return or destroy all
+  copies of the works possessed in a physical medium and discontinue
+  all use of and all access to other copies of Project Gutenberg-tm
+  works.</li>
+
+<li>You provide, in accordance with paragraph 1.F.3, a full refund of
+  any money paid for a work or a replacement copy, if a defect in the
+  electronic work is discovered and reported to you within 90 days of
+  receipt of the work.</li>
+
+<li>You comply with all other terms of this agreement for free
+  distribution of Project Gutenberg-tm works.</li>
+</ul>
+
+<p>1.E.9. If you wish to charge a fee or distribute a Project
+Gutenberg-tm electronic work or group of works on different terms than
+are set forth in this agreement, you must obtain permission in writing
+from both the Project Gutenberg Literary Archive Foundation and The
+Project Gutenberg Trademark LLC, the owner of the Project Gutenberg-tm
+trademark. Contact the Foundation as set forth in Section 3 below.</p>
+
+<p>1.F.</p>
+
+<p>1.F.1. Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+works not protected by U.S. copyright law in creating the Project
+Gutenberg-tm collection. Despite these efforts, Project Gutenberg-tm
+electronic works, and the medium on which they may be stored, may
+contain "Defects," such as, but not limited to, incomplete, inaccurate
+or corrupt data, transcription errors, a copyright or other
+intellectual property infringement, a defective or damaged disk or
+other medium, a computer virus, or computer codes that damage or
+cannot be read by your equipment.</p>
+
+<p>1.F.2. LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees. YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH 1.F.3. YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.</p>
+
+<p>1.F.3. LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from. If you
+received the work on a physical medium, you must return the medium
+with your written explanation. The person or entity that provided you
+with the defective work may elect to provide a replacement copy in
+lieu of a refund. If you received the work electronically, the person
+or entity providing it to you may choose to give you a second
+opportunity to receive the work electronically in lieu of a refund. If
+the second copy is also defective, you may demand a refund in writing
+without further opportunities to fix the problem.</p>
+
+<p>1.F.4. Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS', WITH NO
+OTHER WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PURPOSE.</p>
+
+<p>1.F.5. Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of
+damages. If any disclaimer or limitation set forth in this agreement
+violates the law of the state applicable to this agreement, the
+agreement shall be interpreted to make the maximum disclaimer or
+limitation permitted by the applicable state law. The invalidity or
+unenforceability of any provision of this agreement shall not void the
+remaining provisions.</p>
+
+<p>1.F.6. INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in
+accordance with this agreement, and any volunteers associated with the
+production, promotion and distribution of Project Gutenberg-tm
+electronic works, harmless from all liability, costs and expenses,
+including legal fees, that arise directly or indirectly from any of
+the following which you do or cause to occur: (a) distribution of this
+or any Project Gutenberg-tm work, (b) alteration, modification, or
+additions or deletions to any Project Gutenberg-tm work, and (c) any
+Defect you cause.  </p>
+
+<h3>Section 2. Information about the Mission of Project Gutenberg-tm</h3>
+
+<p>Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of
+computers including obsolete, old, middle-aged and new computers. It
+exists because of the efforts of hundreds of volunteers and donations
+from people in all walks of life.</p>
+
+<p>Volunteers and financial support to provide volunteers with the
+assistance they need are critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come. In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future
+generations. To learn more about the Project Gutenberg Literary
+Archive Foundation and how your efforts and donations can help, see
+Sections 3 and 4 and the Foundation information page at
+www.gutenberg.org.</p>
+
+<h3>Section 3. Information about the Project Gutenberg
+Literary Archive Foundation</h3>
+
+<p>The Project Gutenberg Literary Archive Foundation is a non profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service. The Foundation's EIN or federal tax identification
+number is 64-6221541. Contributions to the Project Gutenberg Literary
+Archive Foundation are tax deductible to the full extent permitted by
+U.S. federal laws and your state's laws.</p>
+
+<p>The Foundation's principal office is in Fairbanks, Alaska, with the
+mailing address: PO Box 750175, Fairbanks, AK 99775, but its
+volunteers and employees are scattered throughout numerous
+locations. Its business office is located at 809 North 1500 West, Salt
+Lake City, UT 84116, (801) 596-1887. Email contact links and up to
+date contact information can be found at the Foundation's web site and
+official page at www.gutenberg.org/contact</p>
+
+<p>For additional contact information:</p>
+
+<p> Dr. Gregory B. Newby<br />
+    Chief Executive and Director<br />
+    gbnewby@pglaf.org</p>
+
+<h3>Section 4. Information about Donations to the Project Gutenberg
+Literary Archive Foundation</h3>
+
+<p>Project Gutenberg-tm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment. Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.</p>
+
+<p>The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States. Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements. We do not solicit donations in locations
+where we have not received written confirmation of compliance. To SEND
+DONATIONS or determine the status of compliance for any particular
+state visit <a href="http://www.gutenberg.org/donate">www.gutenberg.org/donate</a>.</p>
+
+<p>While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.</p>
+
+<p>International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States. U.S. laws alone swamp our small staff.</p>
+
+<p>Please check the Project Gutenberg Web pages for current donation
+methods and addresses. Donations are accepted in a number of other
+ways including checks, online payments and credit card donations. To
+donate, please visit: www.gutenberg.org/donate</p>
+
+<h3>Section 5. General Information About Project Gutenberg-tm electronic works.</h3>
+
+<p>Professor Michael S. Hart was the originator of the Project
+Gutenberg-tm concept of a library of electronic works that could be
+freely shared with anyone. For forty years, he produced and
+distributed Project Gutenberg-tm eBooks with only a loose network of
+volunteer support.</p>
+
+<p>Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as not protected by copyright in
+the U.S. unless a copyright notice is included. Thus, we do not
+necessarily keep eBooks in compliance with any particular paper
+edition.</p>
+
+<p>Most people start at our Web site which has the main PG search
+facility: www.gutenberg.org</p>
+
+<p>This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.</p>
+
+</body>
+</html>
+
